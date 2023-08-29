@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <View style={[styles.container, {backgroundColor: '#f0f0f0'}]}>
-      <Text>SEMWAL GAURAV</Text>
+      <Text>गौरव सेमवाल फ्रॉम उत्तराखण्ड </Text>
       <TextInput ref={inputRef} style={styles.input} />
       <Button title="Update Input Box" onPress={updateInput} />
     </View>
