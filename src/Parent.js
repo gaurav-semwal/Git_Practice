@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <View style={[styles.container, {backgroundColor: '#f0f0f0'}]}>
-      <Text>Using forwardRef</Text>
+      <Text>UPDATING THE GIT</Text>
       <TextInput ref={inputRef} style={styles.input} />
       <Button title="Update Input Box" onPress={updateInput} />
     </View>
